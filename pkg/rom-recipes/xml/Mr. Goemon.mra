@@ -1,0 +1,24 @@
+<misterromdescription>
+    <name>Mr. Goemon</name>
+    <homebrew>no</homebrew>
+    <bootleg>no</bootleg>
+    <mameversion>0240</mameversion>
+    <setname>mrgoemon</setname>
+    <rom index="1">
+        <part>02</part>
+    </rom>
+    <rom index="0" zip="mrgoemon.zip" md5="bb85714cd6fe34f3c812183d6f7ca0a0" type="merged">
+        <!-- main cpu -->
+        <part crc="b2219c56" name="621d01.10c" />
+        <part crc="c3337a97" name="621d02.12c" />
+        <!-- gfx2 -->
+        <part crc="66f2b973" name="621d03.4d" />
+        <part crc="47df6301" name="621d04.5d" />
+        <!-- gfx1 -->
+        <part crc="f0a6dfc5" name="621a05.6d" />
+        <!-- proms -->
+        <part crc="3980acdc" name="621a07.6f" />
+        <part crc="2fb244dd" name="621a08.7f" />
+        <part crc="7c90de5f" name="621a06.5f" />
+    </rom>
+</misterromdescription>

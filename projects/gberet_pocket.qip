@@ -1,0 +1,8 @@
+# ==============================================================================
+# Platform Specific Modules
+# ==============================================================================
+set_global_assignment -name QIP_FILE "../modules/general-sync_fifo/index.qip"
+set_global_assignment -name QIP_FILE "../modules/pocket-i2s/index.qip"
+set_global_assignment -name QIP_FILE "../modules/pocket-joypad/index.qip"
+set_global_assignment -name QIP_FILE "../modules/pocket-dataloader/index.qip"
+set_global_assignment -name QIP_FILE "../modules/pocket-video/index.qip"

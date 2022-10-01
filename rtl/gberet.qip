@@ -1,0 +1,17 @@
+# ==============================================================================
+# RTL
+# ==============================================================================
+set_global_assignment -name QIP_FILE     [file join $::quartus(qip_path) "DPRAM1024_4.qip"]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "DPRAMs.v"]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "GreenBeret.v"]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "GreenBeret_MAIN.v"]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "GreenBeret_SOUND.v"]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "GreenBeret_VIDEO.v"]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "HVGEN.v"]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "ROMS.v"]
+
+# ==============================================================================
+# MODULES
+# ==============================================================================
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) "../modules/cpu-t80/index.qip"]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) "../modules/sound-sn76496/index.qip"]
